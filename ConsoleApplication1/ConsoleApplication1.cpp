@@ -5,6 +5,7 @@
 
 int main()
 {
+    // kzkzkz
     std::cout << "Choose a program\n";
     std::cout << "1. Convertion to a number with opposite sign\n";
     std::cout << "2. The square of the number\n\n";
@@ -13,9 +14,13 @@ int main()
     std::cin >> num;
 
     if (num == 1) {
-        num = num * (-1);
+        int n;
+        std::cout << "Enter a number: ";
+        std::cin >> n;
 
-        std::cout << "\nResult: " << num << "\n\n";
+        n = n * (-1);
+
+        std::cout << "\nResult: " << n << "\n\n";
     }
     else {
         std::cout << "Don't working...\n\n";
